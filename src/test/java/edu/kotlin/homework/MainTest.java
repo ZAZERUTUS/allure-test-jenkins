@@ -66,7 +66,7 @@ public class MainTest extends BaseTest {
                 .goTo()
                 .assertElem2UnderElem1("A", "B")
                 .moveAtoB(page.fieldA, page.fieldB)
-                .assertElem2UnderElem1("B", "A");
+                .assertElem2UnderElem1("F", "A");
 
         Thread.sleep(3000);
     }
